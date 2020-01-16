@@ -62,3 +62,8 @@ contact.textContent = (siteContent["nav"]["nav-item-6"])
 let cta = document.getElementById("cta-img");
 cta.setAttribute('src', siteContent["cta"]["img-src"])
 
+let awesome = document.getElementsByTagName("h1").item(0);
+awesome.textContent = (siteContent["cta"]["h1"])
+
+let button = document.getElementsByTagName("button").item(0);
+button.textContent = (siteContent["cta"]["button"])
