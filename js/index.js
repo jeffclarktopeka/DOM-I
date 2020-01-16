@@ -41,23 +41,23 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-let services = document.getElementsByTagName("a").item(0);
-services.textContent = (siteContent["nav"]["nav-item-1"])
+let servicesNav = document.getElementsByTagName("a").item(0);
+servicesNav.textContent = (siteContent["nav"]["nav-item-1"])
 
-let product = document.getElementsByTagName("a").item(1);
-product.textContent = (siteContent["nav"]["nav-item-2"])
+let productNav = document.getElementsByTagName("a").item(1);
+productNav.textContent = (siteContent["nav"]["nav-item-2"])
 
-let vision = document.getElementsByTagName("a").item(2);
-vision.textContent = (siteContent["nav"]["nav-item-3"])
+let visionNav = document.getElementsByTagName("a").item(2);
+visionNav.textContent = (siteContent["nav"]["nav-item-3"])
 
-let features = document.getElementsByTagName("a").item(3);
-features.textContent = (siteContent["nav"]["nav-item-4"])
+let featuresNav = document.getElementsByTagName("a").item(3);
+featuresNav.textContent = (siteContent["nav"]["nav-item-4"])
 
-let about = document.getElementsByTagName("a").item(4);
-about.textContent = (siteContent["nav"]["nav-item-5"])
+let aboutNav = document.getElementsByTagName("a").item(4);
+aboutNav.textContent = (siteContent["nav"]["nav-item-5"])
 
-let contact = document.getElementsByTagName("a").item(5);
-contact.textContent = (siteContent["nav"]["nav-item-6"])
+let contactNav = document.getElementsByTagName("a").item(5);
+contactNav.textContent = (siteContent["nav"]["nav-item-6"])
 
 let cta = document.getElementById("cta-img");
 cta.setAttribute('src', siteContent["cta"]["img-src"])
@@ -67,3 +67,75 @@ awesome.textContent = (siteContent["cta"]["h1"])
 
 let button = document.getElementsByTagName("button").item(0);
 button.textContent = (siteContent["cta"]["button"])
+
+let features = document.getElementsByTagName("h4").item(0);
+features.textContent = (siteContent["main-content"]["features-h4"])
+
+let featuresP = document.getElementsByTagName("p").item(0);
+featuresP.textContent = (siteContent["main-content"]["features-content"])
+
+
+let about = document.getElementsByTagName("h4").item(1);
+about.textContent = (siteContent["main-content"]["about-h4"])
+
+let aboutP = document.getElementsByTagName("p").item(1);
+aboutP.textContent = (siteContent["main-content"]["about-content"])
+
+let midImg = document.getElementById("middle-img");
+midImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
+
+let services = document.getElementsByTagName("h4").item(2);
+services.textContent = (siteContent["main-content"]["services-h4"])
+
+let servicesP = document.getElementsByTagName("p").item(2);
+servicesP.textContent = (siteContent["main-content"]["services-content"])
+
+let product = document.getElementsByTagName("h4").item(3);
+product.textContent = (siteContent["main-content"]["product-h4"])
+
+let productP = document.getElementsByTagName("p").item(3);
+productP.textContent = (siteContent["main-content"]["product-content"])
+
+let vision = document.getElementsByTagName("h4").item(4);
+vision.textContent = (siteContent["main-content"]["vision-h4"])
+
+let visionP = document.getElementsByTagName("p").item(4);
+visionP.textContent = (siteContent["main-content"]["vision-content"])
+
+let contact = document.getElementsByTagName("h4").item(5);
+contact.textContent = (siteContent["contact"]["contact-h4"])
+
+let contactP = document.getElementsByTagName("p").item(5);
+contactP.textContent = (siteContent["contact"]["address"])
+
+let contactP2 = document.getElementsByTagName("p").item(6);
+contactP2.textContent = (siteContent["contact"]["phone"])
+
+let contactP3 = document.getElementsByTagName("p").item(7);
+contactP3.textContent = (siteContent["contact"]["email"])
+
+let footer = document.getElementsByTagName("p").item(8);
+footer.textContent = (siteContent["footer"]["copyright"])
+
+let navStyle = document.getElementsByTagName("a").item(0);
+navStyle.style.color = "green"
+
+let navStyle2 = document.getElementsByTagName("a").item(1);
+navStyle2.style.color = "green"
+
+let navStyle3 = document.getElementsByTagName("a").item(2);
+navStyle3.style.color = "green"
+
+let navStyle4 = document.getElementsByTagName("a").item(3);
+navStyle4.style.color = "green"
+
+let navStyle5 = document.getElementsByTagName("a").item(4);
+navStyle5.style.color = "green"
+
+let navStyle6 = document.getElementsByTagName("a").item(5);
+navStyle6.style.color = "green"
+
+
+
+
+
