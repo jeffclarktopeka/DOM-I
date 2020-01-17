@@ -135,6 +135,16 @@ navStyle5.style.color = "green"
 let navStyle6 = document.getElementsByTagName("a").item(5);
 navStyle6.style.color = "green"
 
+let firstLink = document.getElementsByTagName("nav").item(0);
+let a = document.createElement("a");
+firstLink.prepend("Home")
+
+let lastLink = document.getElementsByTagName("nav").item(0);
+let a2 = document.createElement("a");
+lastLink.append("Store")
+
+
+
 
 
 
